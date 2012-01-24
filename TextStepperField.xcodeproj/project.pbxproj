@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		642A6D9414CDC6C9007E55C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642A6D9314CDC6C9007E55C8 /* UIKit.framework */; };
+		642A6D9614CDC6C9007E55C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642A6D9514CDC6C9007E55C8 /* Foundation.framework */; };
+		642A6D9814CDC6C9007E55C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642A6D9714CDC6C9007E55C8 /* CoreGraphics.framework */; };
+		642A6D9E14CDC6C9007E55C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 642A6D9C14CDC6C9007E55C8 /* InfoPlist.strings */; };
+		642A6DA014CDC6C9007E55C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A6D9F14CDC6C9007E55C8 /* main.m */; };
+		642A6DA414CDC6C9007E55C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 642A6DA314CDC6C9007E55C8 /* AppDelegate.m */; };
+		64BF0AA614CEBC7F00050961 /* UIStepperLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BF0A9314CEBC7F00050961 /* UIStepperLeft.png */; };
+		64BF0AA714CEBC7F00050961 /* UIStepperLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BF0A9414CEBC7F00050961 /* UIStepperLeft@2x.png */; };
+		64BF0AA814CEBC7F00050961 /* UIStepperLeftPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BF0A9514CEBC7F00050961 /* UIStepperLeftPressed.png */; };
+		64BF0AA914CEBC7F00050961 /* UIStepperLeftPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BF0A9614CEBC7F00050961 /* UIStepperLeftPressed@2x.png */; };
+		64BF0AAA14CEBC7F00050961 /* UIStepperMiddle.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BF0A9714CEBC7F00050961 /* UIStepperMiddle.png */; };
+		64BF0AAB14CEBC7F00050961 /* UIStepperMiddle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BF0A9814CEBC7F00050961 /* UIStepperMiddle@2x.png */; };
+		64BF0AAC14CEBC7F00050961 /* UIStepperMinus.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BF0A9914CEBC7F00050961 /* UIStepperMinus.png */; };
+		64BF0AAD14CEBC7F00050961 /* UIStepperMinus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BF0A9A14CEBC7F00050961 /* UIStepperMinus@2x.png */; };
+		64BF0AAE14CEBC7F00050961 /* UIStepperPlus.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BF0A9B14CEBC7F00050961 /* UIStepperPlus.png */; };
+		64BF0AAF14CEBC7F00050961 /* UIStepperPlus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BF0A9C14CEBC7F00050961 /* UIStepperPlus@2x.png */; };
+		64BF0AB014CEBC7F00050961 /* UIStepperRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BF0A9D14CEBC7F00050961 /* UIStepperRight.png */; };
+		64BF0AB114CEBC7F00050961 /* UIStepperRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BF0A9E14CEBC7F00050961 /* UIStepperRight@2x.png */; };
+		64BF0AB214CEBC7F00050961 /* UIStepperRightPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BF0A9F14CEBC7F00050961 /* UIStepperRightPressed.png */; };
+		64BF0AB314CEBC7F00050961 /* UIStepperRightPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BF0AA014CEBC7F00050961 /* UIStepperRightPressed@2x.png */; };
+		64BF0AB514CEBC7F00050961 /* stepperTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BF0AA414CEBC7F00050961 /* stepperTestViewController.m */; };
+		64BF0ABB14CEBE3200050961 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64BF0AB714CEBE3200050961 /* MainWindow.xib */; };
+		64BF0ABC14CEBE3200050961 /* stepperTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64BF0AB914CEBE3200050961 /* stepperTestViewController.xib */; };
+		64BF0AC014CEBFA100050961 /* TextStepperField.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BF0ABF14CEBFA100050961 /* TextStepperField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		642A6D8F14CDC6C9007E55C8 /* TextStepperField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextStepperField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		642A6D9314CDC6C9007E55C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		642A6D9514CDC6C9007E55C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		642A6D9714CDC6C9007E55C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		642A6D9B14CDC6C9007E55C8 /* TextStepperField-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextStepperField-Info.plist"; sourceTree = "<group>"; };
+		642A6D9D14CDC6C9007E55C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		642A6D9F14CDC6C9007E55C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		642A6DA114CDC6C9007E55C8 /* TextStepperField-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextStepperField-Prefix.pch"; sourceTree = "<group>"; };
+		642A6DA214CDC6C9007E55C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		642A6DA314CDC6C9007E55C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64BF0A9314CEBC7F00050961 /* UIStepperLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIStepperLeft.png; sourceTree = "<group>"; };
+		64BF0A9414CEBC7F00050961 /* UIStepperLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIStepperLeft@2x.png"; sourceTree = "<group>"; };
+		64BF0A9514CEBC7F00050961 /* UIStepperLeftPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIStepperLeftPressed.png; sourceTree = "<group>"; };
+		64BF0A9614CEBC7F00050961 /* UIStepperLeftPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIStepperLeftPressed@2x.png"; sourceTree = "<group>"; };
+		64BF0A9714CEBC7F00050961 /* UIStepperMiddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIStepperMiddle.png; sourceTree = "<group>"; };
+		64BF0A9814CEBC7F00050961 /* UIStepperMiddle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIStepperMiddle@2x.png"; sourceTree = "<group>"; };
+		64BF0A9914CEBC7F00050961 /* UIStepperMinus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIStepperMinus.png; sourceTree = "<group>"; };
+		64BF0A9A14CEBC7F00050961 /* UIStepperMinus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIStepperMinus@2x.png"; sourceTree = "<group>"; };
+		64BF0A9B14CEBC7F00050961 /* UIStepperPlus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIStepperPlus.png; sourceTree = "<group>"; };
+		64BF0A9C14CEBC7F00050961 /* UIStepperPlus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIStepperPlus@2x.png"; sourceTree = "<group>"; };
+		64BF0A9D14CEBC7F00050961 /* UIStepperRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIStepperRight.png; sourceTree = "<group>"; };
+		64BF0A9E14CEBC7F00050961 /* UIStepperRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIStepperRight@2x.png"; sourceTree = "<group>"; };
+		64BF0A9F14CEBC7F00050961 /* UIStepperRightPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIStepperRightPressed.png; sourceTree = "<group>"; };
+		64BF0AA014CEBC7F00050961 /* UIStepperRightPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIStepperRightPressed@2x.png"; sourceTree = "<group>"; };
+		64BF0AA314CEBC7F00050961 /* stepperTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stepperTestViewController.h; sourceTree = "<group>"; };
+		64BF0AA414CEBC7F00050961 /* stepperTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = stepperTestViewController.m; sourceTree = "<group>"; };
+		64BF0AB814CEBE3200050961 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		64BF0ABA14CEBE3200050961 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/stepperTestViewController.xib; sourceTree = "<group>"; };
+		64BF0ABE14CEBFA100050961 /* TextStepperField.h */ = {isa = PBXFileReference; fileEncoding = 4; path = TextStepperField.h; sourceTree = "<group>"; };
+		64BF0ABF14CEBFA100050961 /* TextStepperField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextStepperField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		642A6D8C14CDC6C9007E55C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				642A6D9414CDC6C9007E55C8 /* UIKit.framework in Frameworks */,
+				642A6D9614CDC6C9007E55C8 /* Foundation.framework in Frameworks */,
+				642A6D9814CDC6C9007E55C8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		642A6D8414CDC6C8007E55C8 = {
+			isa = PBXGroup;
+			children = (
+				642A6D9914CDC6C9007E55C8 /* TextStepperField */,
+				642A6D9214CDC6C9007E55C8 /* Frameworks */,
+				642A6D9014CDC6C9007E55C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		642A6D9014CDC6C9007E55C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				642A6D8F14CDC6C9007E55C8 /* TextStepperField.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		642A6D9214CDC6C9007E55C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				642A6D9314CDC6C9007E55C8 /* UIKit.framework */,
+				642A6D9514CDC6C9007E55C8 /* Foundation.framework */,
+				642A6D9714CDC6C9007E55C8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		642A6D9914CDC6C9007E55C8 /* TextStepperField */ = {
+			isa = PBXGroup;
+			children = (
+				64BF0AC114CEBFB500050961 /* AppDelegate */,
+				64BF0AC214CEBFC000050961 /* ViewExample */,
+				64BF0ABD14CEBF0900050961 /* UIControl */,
+				642A6D9A14CDC6C9007E55C8 /* Supporting Files */,
+			);
+			path = TextStepperField;
+			sourceTree = "<group>";
+		};
+		642A6D9A14CDC6C9007E55C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				642A6D9B14CDC6C9007E55C8 /* TextStepperField-Info.plist */,
+				642A6D9C14CDC6C9007E55C8 /* InfoPlist.strings */,
+				642A6D9F14CDC6C9007E55C8 /* main.m */,
+				642A6DA114CDC6C9007E55C8 /* TextStepperField-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64BF0A9214CEBC7F00050961 /* Res Grafics */ = {
+			isa = PBXGroup;
+			children = (
+				64BF0A9314CEBC7F00050961 /* UIStepperLeft.png */,
+				64BF0A9414CEBC7F00050961 /* UIStepperLeft@2x.png */,
+				64BF0A9514CEBC7F00050961 /* UIStepperLeftPressed.png */,
+				64BF0A9614CEBC7F00050961 /* UIStepperLeftPressed@2x.png */,
+				64BF0A9714CEBC7F00050961 /* UIStepperMiddle.png */,
+				64BF0A9814CEBC7F00050961 /* UIStepperMiddle@2x.png */,
+				64BF0A9914CEBC7F00050961 /* UIStepperMinus.png */,
+				64BF0A9A14CEBC7F00050961 /* UIStepperMinus@2x.png */,
+				64BF0A9B14CEBC7F00050961 /* UIStepperPlus.png */,
+				64BF0A9C14CEBC7F00050961 /* UIStepperPlus@2x.png */,
+				64BF0A9D14CEBC7F00050961 /* UIStepperRight.png */,
+				64BF0A9E14CEBC7F00050961 /* UIStepperRight@2x.png */,
+				64BF0A9F14CEBC7F00050961 /* UIStepperRightPressed.png */,
+				64BF0AA014CEBC7F00050961 /* UIStepperRightPressed@2x.png */,
+			);
+			path = "Res Grafics";
+			sourceTree = "<group>";
+		};
+		64BF0ABD14CEBF0900050961 /* UIControl */ = {
+			isa = PBXGroup;
+			children = (
+				64BF0ABE14CEBFA100050961 /* TextStepperField.h */,
+				64BF0ABF14CEBFA100050961 /* TextStepperField.m */,
+				64BF0A9214CEBC7F00050961 /* Res Grafics */,
+			);
+			path = UIControl;
+			sourceTree = "<group>";
+		};
+		64BF0AC114CEBFB500050961 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				642A6DA214CDC6C9007E55C8 /* AppDelegate.h */,
+				642A6DA314CDC6C9007E55C8 /* AppDelegate.m */,
+				64BF0AB714CEBE3200050961 /* MainWindow.xib */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		64BF0AC214CEBFC000050961 /* ViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				64BF0AA314CEBC7F00050961 /* stepperTestViewController.h */,
+				64BF0AA414CEBC7F00050961 /* stepperTestViewController.m */,
+				64BF0AB914CEBE3200050961 /* stepperTestViewController.xib */,
+			);
+			name = ViewExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		642A6D8E14CDC6C9007E55C8 /* TextStepperField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 642A6DA714CDC6C9007E55C8 /* Build configuration list for PBXNativeTarget "TextStepperField" */;
+			buildPhases = (
+				642A6D8B14CDC6C9007E55C8 /* Sources */,
+				642A6D8C14CDC6C9007E55C8 /* Frameworks */,
+				642A6D8D14CDC6C9007E55C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextStepperField;
+			productName = TextStepperField;
+			productReference = 642A6D8F14CDC6C9007E55C8 /* TextStepperField.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		642A6D8614CDC6C8007E55C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 642A6D8914CDC6C8007E55C8 /* Build configuration list for PBXProject "TextStepperField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 642A6D8414CDC6C8007E55C8;
+			productRefGroup = 642A6D9014CDC6C9007E55C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				642A6D8E14CDC6C9007E55C8 /* TextStepperField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		642A6D8D14CDC6C9007E55C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				642A6D9E14CDC6C9007E55C8 /* InfoPlist.strings in Resources */,
+				64BF0AA614CEBC7F00050961 /* UIStepperLeft.png in Resources */,
+				64BF0AA714CEBC7F00050961 /* UIStepperLeft@2x.png in Resources */,
+				64BF0AA814CEBC7F00050961 /* UIStepperLeftPressed.png in Resources */,
+				64BF0AA914CEBC7F00050961 /* UIStepperLeftPressed@2x.png in Resources */,
+				64BF0AAA14CEBC7F00050961 /* UIStepperMiddle.png in Resources */,
+				64BF0AAB14CEBC7F00050961 /* UIStepperMiddle@2x.png in Resources */,
+				64BF0AAC14CEBC7F00050961 /* UIStepperMinus.png in Resources */,
+				64BF0AAD14CEBC7F00050961 /* UIStepperMinus@2x.png in Resources */,
+				64BF0AAE14CEBC7F00050961 /* UIStepperPlus.png in Resources */,
+				64BF0AAF14CEBC7F00050961 /* UIStepperPlus@2x.png in Resources */,
+				64BF0AB014CEBC7F00050961 /* UIStepperRight.png in Resources */,
+				64BF0AB114CEBC7F00050961 /* UIStepperRight@2x.png in Resources */,
+				64BF0AB214CEBC7F00050961 /* UIStepperRightPressed.png in Resources */,
+				64BF0AB314CEBC7F00050961 /* UIStepperRightPressed@2x.png in Resources */,
+				64BF0ABB14CEBE3200050961 /* MainWindow.xib in Resources */,
+				64BF0ABC14CEBE3200050961 /* stepperTestViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		642A6D8B14CDC6C9007E55C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				642A6DA014CDC6C9007E55C8 /* main.m in Sources */,
+				642A6DA414CDC6C9007E55C8 /* AppDelegate.m in Sources */,
+				64BF0AB514CEBC7F00050961 /* stepperTestViewController.m in Sources */,
+				64BF0AC014CEBFA100050961 /* TextStepperField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		642A6D9C14CDC6C9007E55C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				642A6D9D14CDC6C9007E55C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64BF0AB714CEBE3200050961 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64BF0AB814CEBE3200050961 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		64BF0AB914CEBE3200050961 /* stepperTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64BF0ABA14CEBE3200050961 /* en */,
+			);
+			name = stepperTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		642A6DA514CDC6C9007E55C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		642A6DA614CDC6C9007E55C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		642A6DA814CDC6C9007E55C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextStepperField/TextStepperField-Prefix.pch";
+				INFOPLIST_FILE = "TextStepperField/TextStepperField-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		642A6DA914CDC6C9007E55C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextStepperField/TextStepperField-Prefix.pch";
+				INFOPLIST_FILE = "TextStepperField/TextStepperField-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		642A6D8914CDC6C8007E55C8 /* Build configuration list for PBXProject "TextStepperField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				642A6DA514CDC6C9007E55C8 /* Debug */,
+				642A6DA614CDC6C9007E55C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		642A6DA714CDC6C9007E55C8 /* Build configuration list for PBXNativeTarget "TextStepperField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				642A6DA814CDC6C9007E55C8 /* Debug */,
+				642A6DA914CDC6C9007E55C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 642A6D8614CDC6C8007E55C8 /* Project object */;
+}
